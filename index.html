@@ -7,8 +7,28 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <h1>Flexbox</h1>
+    
+
+    <nav>
+
+        <div>
+            <h1>Flexbox</h1>
+          </div>
+
+    <div class="divAncoras">
+        <a href="#display">Display: Flex</a>
+        <a href="#Justify_Content">Justify Content</a>
+        <a href="#Flex_Direction">Flex-Direction</a>
+        <a href="#Align_Itens">Align-Itens</a>
+        <a href="#Flex_Wrap">Flex-Wrap</a>
+        <a href="#Flex_Flow">Flex-Flow</a>  
+        <a href="#Align_content">Align_content</a>
+      </div>
+    </nav>
+
     <h2>Documentação</h2>
+
+    <section id="display">
     <h3>display:flex</h3>
     <p class="descrição-propriedade">
         A primeira propriedade que precisa ser declarada para que o Flexbox funcione!
@@ -43,19 +63,84 @@
 
     <p>Exemplo:</p>
     <div class="container">
-        <div class="contido">Olar</div>
-        <div class="contido">Iza</div>
-        <div class="contido">Mi</div>
-        <div class="contido">um</div>
-        <div class="contido">Dois</div>
+        <div class="contido">OI</div>
+        <div class="contido">CLARO</div>
+        <div class="contido">TIM</div>
+        <div class="contido">VIVO</div>
+        <div class="contido">NEXTEL</div>
     </div>
 
-    <h3>Justify-content: space-between</h3>
+    </section>
+
+    <section id="Justify_Content">
+
+    <h2>Justify-content:</h2>
+    <p>A justify-content é a propriedade que alinha os itens do container flexível quando os itens não ocupam todo o espaço disponível no eixo principal (horizontalmente).</p>
+    
+
+    <table>
+        <p>center: alinha os itens no centro do contêiner;</p>
+        <p>flex-start: valor padrão alinha os itens no início do contêiner;</p>
+        <p>flex-end: valor padrão alinha os itens no final do contêiner.</p>
+    </table>
+
+
+    <h2>Justify-content: flex-start</h2>
+
+    <p class="descrição-propriedade">
+        Alinha os elementos rente à borda esquerda do contêiner
+    </p>
+
+    <p>Exemplo de justify-content: flex-start</p>
+    <div class="justifycontent_flexstart">
+        <div class="fs">OI</div>
+        <div class="fs">CLARO</div>
+        <div class="fs">TIM</div>
+        <div class="fs">VIVO</div>
+        <div class="fs">NEXTEL</div>
+    </div>
+
+
+    <h2>Justify-content: flex-end</h2>
+
+    <p class="descrição-propriedade">
+        Alinha os elementos filhos a partir do final do eixo principal, rente à borda direita do contêiner flex, no sentido oposto ao alinhamento flex-start: CSS.
+    </p>
+
+    <p>Exemplo de justify-content: flex-end</p>
+    <div class="justifycontent_flexend">
+        <div class="fe">OI</div>
+        <div class="fe">CLARO</div>
+        <div class="fe">TIM</div>
+        <div class="fe">VIVO</div>
+        <div class="fe">NEXTEL</div>
+    </div>
+
+    <h2>Justify-content: flex-center</h2>
+
+    <p class="descrição-propriedade">
+        É usada para alinhar os elementos ao longo do eixo principal (main-axis), cuja direção (row ou column) é definida a partir da propriedade flex-direction. 
+    </p>
+
+    <p>Exemplo de justify-content: flex-end</p>
+    <div class="justifycontent_flexcenter">
+        <div class="fc">OI</div>
+        <div class="fc">CLARO</div>
+        <div class="fc">TIM</div>
+        <div class="fc">VIVO</div>
+        <div class="fc">NEXTEL</div>
+    </div>
+
+
+
+
+    <h2>Justify-content: space-between</h2>
+
     <p class="descrição-propriedade">
         Cria um espaçamento igual entre os elementos. Mantendo o primeiro grudado no início e o último no final
     </p>
 
-    <p>Exemplo de justify-content:</p>
+    <p>Exemplo de justify-content:space-between</p>
     <div class="justifycontent">
         <div class="jc">OI</div>
         <div class="jc">CLARO</div>
@@ -64,10 +149,41 @@
         <div class="jc">NEXTEL</div>
     </div>
 
-    
-    
+    <h2>Justify-content: space-around</h2>
+
+    <p class="descrição-propriedade">
+        É usada para alinhar os elementos ao longo do eixo principal (main-axis), cuja direção (row ou column) é definida a partir da propriedade flex-direction. 
+    </p>
+
+    <p>Exemplo de justify-content:space-around</p>
+    <div class="justifycontent_space-around">
+        <div class="sa">OI</div>
+        <div class="sa">CLARO</div>
+        <div class="sa">TIM</div>
+        <div class="sa">VIVO</div>
+        <div class="sa">NEXTEL</div>
+    </div>
     
 
+    <h2>Justify-content: space-evenly </h2>
+
+    <p class="descrição-propriedade">
+        Os itens são distribuídos igualmente no espaço disponível. 
+    </p>
+
+    <p>Exemplo de justify-content:space-evenly</p>
+    <div class="justifycontent_space-evenly">
+        <div class="se">OI</div>
+        <div class="se">CLARO</div>
+        <div class="se">TIM</div>
+        <div class="se">VIVO</div>
+        <div class="se">NEXTEL</div>
+    </div>
+
+    </section>
+    
+    
+    
 
 </body>
 </html>

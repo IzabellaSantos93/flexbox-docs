@@ -13,6 +13,49 @@
 
 /*Estilos de pagina que sobrescreverão os resets anteriores */
 
+body {
+    margin: 0;
+}
+
+h1 {
+    color:black;
+    margin: 0;
+    font-family: 'DynaPuff', sans-serif;
+    font-size: 50px;
+
+  }
+
+a {
+    color: black;
+    font-family: 'Sedgwick Ave Display', sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+    
+    
+    
+  }
+
+  .divAncoras {
+    display: flex;
+    justify-content: space-evenly;
+    width: 600px;
+    
+  }
+
+  nav {
+    height: 50px;
+    background-color: aqua;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1em;
+   width: 100%;
+  }
+
+  a:hover {
+    color: black;  
+    }
+
 .container {
     height: 300px;
     background-color: red;
@@ -39,6 +82,91 @@
 }
 
 .jc {
+    width: 200px;
+    height: 250px;
+    background-color: red;
+    border: 5px solid #000;
+}
+
+.justifycontent_flexstart {
+    width: 600;
+    height: 300px;
+    background-color: aqua;
+    border: 5px solid black; 
+    display: flex;
+    justify-content: flex-start;
+
+}
+
+.fs {
+    width: 200px;
+    height: 250px;
+    background-color: red;
+    border: 5px solid #000;
+}
+
+.justifycontent_flexend {
+    width: 600;
+    height: 300px;
+    background-color: aqua;
+    border: 5px solid black; 
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.fe {
+    width: 200px;
+    height: 250px;
+    background-color: red;
+    border: 5px solid #000;
+}
+
+.justifycontent_flexcenter {
+    width: 600;
+    height: 300px;
+    background-color: aqua;
+    border: 5px solid black; 
+    display: flex;
+    justify-content: center;
+
+}
+
+.fc {
+    width: 200px;
+    height: 250px;
+    background-color: red;
+    border: 5px solid #000;
+}
+
+.justifycontent_space-around {
+    width: 600;
+    height: 300px;
+    background-color: aqua;
+    border: 5px solid black; 
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.sa{
+    width: 200px;
+    height: 250px;
+    background-color: red;
+    border: 5px solid #000;
+}
+
+.justifycontent_space-evenly {
+    width: 600;
+    height: 300px;
+    background-color: aqua;
+    border: 5px solid black; 
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.se{
     width: 200px;
     height: 250px;
     background-color: red;
