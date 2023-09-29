@@ -311,4 +311,36 @@ a {
     border: 5px solid #000;
 }  
 
+.nowrap{
+    width: 600;
+    height: 300px;
+    background-color: aqua;
+    border: 5px solid black; 
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.nw{
+    width: 200px;
+    height: 250px;
+    background-color: red;
+    border: 5px solid #000;
+}  
+
+.wrap{
+    width: 600;
+    height: 300px;
+    background-color: aqua;
+    border: 5px solid black; 
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.wp{
+    width: 200px;
+    height: 250px;
+    background-color: red;
+    border: 5px solid #000;
+}  
+
 
